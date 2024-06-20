@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button</title>
+</head>
+<body>
+    <div id="buttonon" style="display: none;" onclick="toggleit()">
+        <img src="button_on.jpg" alt="">
+    </div>
+    <div id="buttonoff" onclick="toggleit()">
+        <img src="button_off.jpg" alt="">
+    </div>
+    <p id="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita modi 
+        cum, mollitia molestias doloremque maxime itaque aperiam, ut aspernatur 
+        reprehenderit omnis repellat voluptatibus nisi, culpa provident odit facilis 
+        voluptate suscipit.
+    </p>
+    <script>
+        function toggleit()
+        {
+            $("#buttonon").toggle();
+            $("#buttonoff").toggle();
+            $("#content").toggle();
+        }
+    </script>
+    <script src="jquery-3.7.1.js"></script>
+</body>
+</html>
