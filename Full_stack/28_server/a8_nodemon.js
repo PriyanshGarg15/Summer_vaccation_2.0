@@ -1,0 +1,2 @@
+/*everytime oif we do change we have to restart server so we neeed nodemon
+everytime out js firl chnage it automatiocally chnages server */
